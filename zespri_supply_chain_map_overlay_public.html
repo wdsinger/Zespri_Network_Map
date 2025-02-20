@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eca0bef8b64aaf291c0d9fb22343324e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eca0bef8b64aaf291c0d9fb22343324e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eca0bef8b64aaf291c0d9fb22343324e = L.map(
+                "map_eca0bef8b64aaf291c0d9fb22343324e",
+                {
+                    center: [0.0, -100.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a07d6ce44f4cbd7b4795a3b5a13e638a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var marker_bfa8ebb11f21697f037de9a6ab2a0a66 = L.marker(
+                [-40.900557, 174.885971],
+                {}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var icon_be5b0c1e1f76529f1decdfea55ebdbe7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_bfa8ebb11f21697f037de9a6ab2a0a66.setIcon(icon_be5b0c1e1f76529f1decdfea55ebdbe7);
+        
+    
+        var popup_67cad5759c570ff4416d98dd2b4cbe65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0407d2246f7fae729fb25bf5df6b801a = $(`<div id="html_0407d2246f7fae729fb25bf5df6b801a" style="width: 100.0%; height: 100.0%;">Orchards (New Zealand)</div>`)[0];
+            popup_67cad5759c570ff4416d98dd2b4cbe65.setContent(html_0407d2246f7fae729fb25bf5df6b801a);
+        
+
+        marker_bfa8ebb11f21697f037de9a6ab2a0a66.bindPopup(popup_67cad5759c570ff4416d98dd2b4cbe65)
+        ;
+
+        
+    
+    
+            var marker_81a2e4c0d2f299d4a16e7ea8b91989ab = L.marker(
+                [-37.787, 176.774],
+                {}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var icon_371b6eaecabce47db319b630d383be3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_81a2e4c0d2f299d4a16e7ea8b91989ab.setIcon(icon_371b6eaecabce47db319b630d383be3e);
+        
+    
+        var popup_333f56c8d30f3dd59ffa14b40d771bfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b12cffe9e199a5bed094ebf7cfe84b2 = $(`<div id="html_7b12cffe9e199a5bed094ebf7cfe84b2" style="width: 100.0%; height: 100.0%;">Pack Houses (New Zealand)</div>`)[0];
+            popup_333f56c8d30f3dd59ffa14b40d771bfc.setContent(html_7b12cffe9e199a5bed094ebf7cfe84b2);
+        
+
+        marker_81a2e4c0d2f299d4a16e7ea8b91989ab.bindPopup(popup_333f56c8d30f3dd59ffa14b40d771bfc)
+        ;
+
+        
+    
+    
+            var marker_2a27ab946321cdab229e62cde691ce58 = L.marker(
+                [-37.6733, 176.1651],
+                {}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var icon_5958833ac548c6fb1fc0ecf96910153f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_2a27ab946321cdab229e62cde691ce58.setIcon(icon_5958833ac548c6fb1fc0ecf96910153f);
+        
+    
+        var popup_b1ec2b14938ffe87fb3109ed7529598f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e0306400fcfe1831c4caa9873606b77 = $(`<div id="html_9e0306400fcfe1831c4caa9873606b77" style="width: 100.0%; height: 100.0%;">Ports (New Zealand)</div>`)[0];
+            popup_b1ec2b14938ffe87fb3109ed7529598f.setContent(html_9e0306400fcfe1831c4caa9873606b77);
+        
+
+        marker_2a27ab946321cdab229e62cde691ce58.bindPopup(popup_b1ec2b14938ffe87fb3109ed7529598f)
+        ;
+
+        
+    
+    
+            var marker_0e4c99bc2d4cdce135a1e7c13fdb49ef = L.marker(
+                [33.74, -118.271],
+                {}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var icon_3f761729581d97906bde667d0c83f827 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_0e4c99bc2d4cdce135a1e7c13fdb49ef.setIcon(icon_3f761729581d97906bde667d0c83f827);
+        
+    
+        var popup_93fc16b6862f52672b28cbbdbd091c09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fddfd258731a7bd8cc3aa5252d244a69 = $(`<div id="html_fddfd258731a7bd8cc3aa5252d244a69" style="width: 100.0%; height: 100.0%;">Port of Los Angeles</div>`)[0];
+            popup_93fc16b6862f52672b28cbbdbd091c09.setContent(html_fddfd258731a7bd8cc3aa5252d244a69);
+        
+
+        marker_0e4c99bc2d4cdce135a1e7c13fdb49ef.bindPopup(popup_93fc16b6862f52672b28cbbdbd091c09)
+        ;
+
+        
+    
+    
+            var marker_dd3e90943b33ac8181866916ccae585b = L.marker(
+                [39.92, -75.14],
+                {}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var icon_102f7daec6b378270e7e6dc5c852bfd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_dd3e90943b33ac8181866916ccae585b.setIcon(icon_102f7daec6b378270e7e6dc5c852bfd1);
+        
+    
+        var popup_aaa6ab757f814e60029462884e327b5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_671eb66471958b75d4eea9ac75ace215 = $(`<div id="html_671eb66471958b75d4eea9ac75ace215" style="width: 100.0%; height: 100.0%;">Port of Philadelphia</div>`)[0];
+            popup_aaa6ab757f814e60029462884e327b5c.setContent(html_671eb66471958b75d4eea9ac75ace215);
+        
+
+        marker_dd3e90943b33ac8181866916ccae585b.bindPopup(popup_aaa6ab757f814e60029462884e327b5c)
+        ;
+
+        
+    
+    
+            var marker_1630b91d23134338aaa8c9c371f9cff0 = L.marker(
+                [41.2033, -77.1945],
+                {}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var icon_774fccd557968f19191e0a7dc86d6dac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_1630b91d23134338aaa8c9c371f9cff0.setIcon(icon_774fccd557968f19191e0a7dc86d6dac);
+        
+    
+        var popup_d7b3387609201f0e0d1ea29c5aaceae6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc51c4e90e97aa176766832bbe3e4166 = $(`<div id="html_fc51c4e90e97aa176766832bbe3e4166" style="width: 100.0%; height: 100.0%;">Distribution Centers (U.S.)</div>`)[0];
+            popup_d7b3387609201f0e0d1ea29c5aaceae6.setContent(html_fc51c4e90e97aa176766832bbe3e4166);
+        
+
+        marker_1630b91d23134338aaa8c9c371f9cff0.bindPopup(popup_d7b3387609201f0e0d1ea29c5aaceae6)
+        ;
+
+        
+    
+    
+            var marker_213d8ead32ae255d8268258bf19a2b3c = L.marker(
+                [40.4173, -82.9071],
+                {}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var icon_218e28de07232888de382e1cad7a8203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_213d8ead32ae255d8268258bf19a2b3c.setIcon(icon_218e28de07232888de382e1cad7a8203);
+        
+    
+        var popup_a1e5bac653060061e7ec84ac4e71a3da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4a1223ce0d59ec92f2695009b185091 = $(`<div id="html_d4a1223ce0d59ec92f2695009b185091" style="width: 100.0%; height: 100.0%;">Retailers (Ohio)</div>`)[0];
+            popup_a1e5bac653060061e7ec84ac4e71a3da.setContent(html_d4a1223ce0d59ec92f2695009b185091);
+        
+
+        marker_213d8ead32ae255d8268258bf19a2b3c.bindPopup(popup_a1e5bac653060061e7ec84ac4e71a3da)
+        ;
+
+        
+    
+    
+            var poly_line_48a72e859860dd262a7322f05d3fb305 = L.polyline(
+                [[-40.900557, 174.885971], [-37.787, 176.774]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var poly_line_c2ecd055539f391ea55b1387093260b1 = L.polyline(
+                [[-37.787, 176.774], [-37.6733, 176.1651]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var poly_line_e914cc8c01cf0bbf9496ed41a93f8021 = L.polyline(
+                [[-37.6733, 176.1651], [33.74, -118.271]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var poly_line_aa799e9164b890caf1e237b6d513ae40 = L.polyline(
+                [[-37.6733, 176.1651], [39.92, -75.14]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var poly_line_4353360b373a0632347ed0e4a8fbd241 = L.polyline(
+                [[33.74, -118.271], [41.2033, -77.1945]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var poly_line_259490cef71515991006ba34a76711da = L.polyline(
+                [[39.92, -75.14], [41.2033, -77.1945]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+    
+            var poly_line_7ea8d4d1e5f9d6ca70c5fe51a384ff36 = L.polyline(
+                [[41.2033, -77.1945], [40.4173, -82.9071]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_eca0bef8b64aaf291c0d9fb22343324e);
+        
+</script>
+</html>
